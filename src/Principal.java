@@ -58,11 +58,15 @@ public class Principal {
                         }
                         break;
                     case 3:
-                        configuracoes.mostraMenu();
-                        quantidadeDeNumeros = leitura.nextInt();
-                        configuracoes.setQuantidadeDeNumeros(quantidadeDeNumeros);
-                        configuracoes.calculaValorAposta();
-                        configuracoes.mostraMenu();
+                        while (opcao == 3) {
+                            configuracoes.mostraMenu();
+                            quantidadeDeNumeros = leitura.nextInt();
+                            configuracoes.setQuantidadeDeNumeros(quantidadeDeNumeros);
+                            configuracoes.calculaValorAposta();
+                            System.out.println("Digite 0 para voltar ou 3 para continuar?");
+                            opcao = leitura.nextInt();
+                        }
+
                         break;
 
                     case 4:

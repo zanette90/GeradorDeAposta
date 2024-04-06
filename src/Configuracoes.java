@@ -1,5 +1,5 @@
 
-public class Configuracoes  {
+public class Configuracoes {
     private int quantidadeDeNumeros;
     private int valorAposta;
 
