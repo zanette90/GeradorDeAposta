@@ -13,6 +13,7 @@ public class Principal {
         int quantidadeDeApostas;
         int quantidadeDeNumeros;
 
+
         while (opcao != 4) {
 
             System.out.println("GERADOR DE APOSTAS");
